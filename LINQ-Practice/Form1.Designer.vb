@@ -41,9 +41,9 @@ Partial Class Form1
         Me.labelOutput.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.labelOutput.Location = New System.Drawing.Point(161, 43)
         Me.labelOutput.Name = "labelOutput"
-        Me.labelOutput.Size = New System.Drawing.Size(63, 20)
+        Me.labelOutput.Size = New System.Drawing.Size(149, 20)
         Me.labelOutput.TabIndex = 1
-        Me.labelOutput.Text = "Label1"
+        Me.labelOutput.Text = "______________"
         '
         'Form1
         '
