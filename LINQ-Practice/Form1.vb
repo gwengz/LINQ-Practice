@@ -1,15 +1,16 @@
 ﻿Public Class Form1
     Private Sub btnClick_Click(sender As Object, e As EventArgs) Handles btnClick.Click
-        Dim numbers As List(Of Integer) = New List(Of Integer) From {1, 2, 3, 4, 5, 6}
+        Dim names As List(Of String) = New List(Of String) From {"Crystal", "Jamaica", "Carmelo", "Angelo", "Tin", "Jo"}
 
-        Dim evenNumbers = numbers.Where(Function(n) n Mod 2 = 0)
+        Dim lessThanFive = names.Where(Function(n) n.Length <= 5)
 
         Dim outputMessage As String = ""
 
-        For Each num In evenNumbers
-            outputMessage += num & " "
+        For Each namee In lessThanFive
+            outputMessage += namee & " "
         Next
 
         labelOutput.Text = outputMessage
     End Sub
+
 End Class
